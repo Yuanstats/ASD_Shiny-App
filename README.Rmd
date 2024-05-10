@@ -1,0 +1,30 @@
+---
+output:
+  word_document: default
+  html_document: default
+---
+
+# ASD Power Visualization Shiny App
+
+This R Shiny application is designed to visualize the power changes under different parameter settings for adaptive signature designs in clinical trials. It allows users to adjust parameters such as sample size, allocation proportion, significance levels, and response probabilities for overall subjects, sensitive subjects, and the entire design to see how these changes affect the statistical power.
+
+## Features
+
+- **Interactive Visualizations**: Plot power changes dynamically based on user input for different groups.
+- **Customizable Parameters**: Users can modify sample sizes, proportions, significance levels, and response rates.
+- **Multiple Test Scenarios**: Includes separate tabs for overall subjects, sensitive subjects, and a combined overview.
+
+## Installation
+
+This application requires R and several R packages. Here are the steps to set up and run the application:
+
+### Prerequisites
+
+Ensure you have R installed on your computer. If not, download and install it from [CRAN](https://cran.r-project.org/).
+
+### Required R Packages
+
+The application requires the following R packages: `shiny`, `shinythemes`, `ggplot2`, and `gt`. You can install these packages using the following R command:
+
+```R
+install.packages(c("shiny", "shinythemes", "ggplot2", "gt"))

@@ -1,6 +1,6 @@
 # ASD Power Visualization Shiny App
 # Description: This Shiny application visualizes the change in statistical power under different parameter settings for adaptive signature designs.
-# Author: Yuan Li
+# Author: Yuan Li, Jing Ning*, Xuelin Huang*
 # Date: 2024-05-10
 # Usage: Run this script in an R environment with the required packages installed.
 
